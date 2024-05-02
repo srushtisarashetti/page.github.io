@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student_Details</title>
+</head>
+<link rel="stylesheet" href="stud.css">
+<body>
+    <section>
+    <form action="success.html">
+    <fieldset class="two">
+        <h3 style="color: blueviolet;">Person Details</h3>
+        <div id="srushti">
+
+        <label for="name">First Name <span style="color: red;">*</span></label><br>
+        <input type="text" id="name" placeholder="First Name" required pattern="[a-zA-Z]{2,20}"><br><br>
+
+        <label for="name">Last Name <span style="color: red;">*</span></label><br>
+        <input type="text" id="name" placeholder="Last Name" required pattern="[a-zA-Z]{2,20}"><br><br>
+
+        <label for="date">DOB <span style="color: red;">*</span></label><br>
+        <input type="date" id="date" placeholder="date" ><br><br>
+
+        <label for="email">Email <span style="color: red;">*</span></label><br>
+        <input type="email" id="email" placeholder="Email" required pattern="[a-z0-9._]+@[a-z]+\.[a-z]{2,}$"><br><br>
+        </fieldset>
+        <br><br>
+
+        <fieldset class="two">
+            <h3 style="color: blueviolet;">Educational Details</h3>
+
+            <label for="">Department</label>
+
+            <input type="radio" id="cs" name="dept">
+                <label for="cs">CS</label> 
+                
+                <input type="radio" id="ec" name="dept">
+                <label for="ec">EC</label> 
+
+                <input type="radio" id="civil" name="dept">
+                <label for="civil">CIVIL</label> 
+
+                <input type="radio" id="mech" name="dept">
+                <label for="mech">MECH</label> <br><br>
+
+                <label for="">Year Of Gradution</label>
+
+                <input list="year">
+                <datalist id="year">
+                    <option>2023</option>
+                    <option>2022</option>
+                    <option>2021</option>
+                    <option>2024</option>
+                  </datalist> <br><br>
+
+                 <label for="">Skills</label> <br>
+
+                 <input type="checkbox" id="html">
+                 <label for="html">HTML</label> 
+
+                 <input type="checkbox" id="java">
+                 <label for="java">JAVA</label> 
+
+                 <input type="checkbox" id="sql">
+                 <label for="sql">SQL</label> 
+                 </fieldset>
+                 <br>
+                 <input type="Submit">
+                 <h3 id="tab" style="text-align: center;"> <a href="firstpagestud.html" style="color: indianred;">Previous</a></h3>
+                </div>
+
+             </fieldset>
+          </form>
+        </section>
+            </body>
+         </html>
